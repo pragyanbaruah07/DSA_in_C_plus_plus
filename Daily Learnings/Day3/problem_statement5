@@ -1,0 +1,12 @@
+Q. If we have only 5 bits, How 13 and -16 will be written in 5 bits.
+
+for 13:
+
+    01101 - 13 in binary form 
+
+for -16:
+    
+    10000 - 16 in binary form 
+    01111 - 1's complement 
+    +   1 - 2's complement 
+    10000 - -16 in binary form

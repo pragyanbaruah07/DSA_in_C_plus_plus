@@ -1,0 +1,1 @@
+cout<<"Sum of cube of first given N natural number is: "<<add;
