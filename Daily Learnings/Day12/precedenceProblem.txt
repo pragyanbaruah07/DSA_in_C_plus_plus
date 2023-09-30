@@ -1,0 +1,25 @@
+What will be the result below according to the precedence table ?
+
+    (i) 2*3-48==5/4*6
+    Ans: 6 - 48 == 1 * 6
+         -42 == 6 => False
+    
+    
+    (ii) 6<<2-4*8/2
+    Ans: 000000110 = 6 in binary
+         000001100 = 12 in binary  
+
+        6 << 2 - 32 / 2
+        6 << 2 - 16
+        6 << -14 =>undefined
+        
+
+    (iii) 5>4<3/2-8%4+5
+    Ans:  5 > 4 < 1 - 8 % 4 + 5
+          5 > 4 < 1 - 0 + 5
+          5 > 4 < 6
+          1 < 6 => 1
+    
+    (iv) 14-8+92>>2+70
+    Ans: 6 + 92 >> 2 + 70
+         98 >> 72 => 0
