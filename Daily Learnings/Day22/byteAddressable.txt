@@ -1,0 +1,11 @@
+Q.  What is Byte addressable?
+
+Ans: Byte addressable means: 
+
+- Byte-addressable memory means that each individual byte in memory has its own unique address.
+
+- You can read from or write to any specific byte in memory by specifying its address.
+
+- In C++, you can use pointers to access and manipulate data at specific memory addresses.
+
+- Byte-addressable memory is the most common memory addressing scheme in modern computer systems.
