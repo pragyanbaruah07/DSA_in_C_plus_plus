@@ -1,0 +1,61 @@
+1. for(int i=1;i<=n*n;i++)
+    cout<<"Coder Army";
+    
+    big(O) -> n^2
+    big(theta) -> n^2
+    big(omega) -> n^2
+
+2: for(int i=1;i<=n*n;i=i+2)
+    cout<<"Coder Army"
+
+    big(O) -> n^2
+    big(theta) -> n^2
+    big(omega) -> n^2
+
+3: for(int i=1;i<=n;i++)
+    for(int j=1;j<=n;j=j+5)
+    cout<<"Coder Army";
+
+    big(O) -> n^2/5
+    big(theta) -> n^2
+    big(omega) -> n^2
+
+4: for(int i=1;i<=n;i++)
+    for(int j=i;j<=n;j=j++)
+    cout<<"Coder Army";
+
+    big(O) -> n^2
+    big(theta) -> n^2
+    big(omega) -> n^2
+
+5: for(int i=1;i<=n;i++)
+    for(int j=1;j<=n;j=j*4)
+    cout<<"Coder Army";
+
+    big(O)-> (n*log4(n))
+    big(theta) -> (n*log4(n))
+    big(omega) ->(n*log4(n))
+
+6: for(int i=1;i<=n;i=i*2)
+    for(int j=1;j<=i;j=j++)
+    cout<<"Coder Army";
+
+    big(O)-> (log2(n)*n)
+    big(theta) -> (log2(n)*n)
+    big(omega) ->(log2(n)*n)
+
+7: for(int i=1;i<=n;i++)
+    for(int j=1;j<=n;j=j++)
+    for(int k=1;k<=n;k=k*3)
+    cout<<"Coder Army";
+
+    big(O)-> (n*n*log3(n))
+    big(theta) -> (n*n*log3(n))
+    big(omega) -> (n*n*log3(n))
+
+8:  for(int i=1;i<=n;i++)
+    for(int j=1;j<=n;j=j++)
+    for(int k=1;k<=n;k++)
+    cout<<"Coder Army";
+
+big(n^3) in all format
